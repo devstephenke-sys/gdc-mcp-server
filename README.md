@@ -2,6 +2,8 @@
 
 Model Context Protocol (MCP) server for the [NCI Genomic Data Commons (GDC)](https://gdc.cancer.gov/) — enabling AI agents to query, search, and download cancer genomic data directly through natural language interactions.
 
+<!-- mcp-name: io.github.devstephenke-sys/gdc-mcp-server -->
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/downloads/)
 

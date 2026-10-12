@@ -10,9 +10,24 @@ readme = "README.md"
 requires-python = ">=3.9"
 license = {text = "MIT"}
 authors = [
-    {name = "Your Name", email = "your.email@example.com"}
+    {name = "Stephen Mwangi", email = "devstephen.ke@gmail.com"}
 ]
 keywords = ["mcp", "gdc", "cancer", "genomics", "nci"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+dependencies = [
+    "httpx>=0.25.0",
+    "mcp>=0.1.0",
+]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Science/Research",
@@ -41,10 +56,10 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/gdc-mcp-server"
-Documentation = "https://github.com/yourusername/gdc-mcp-server#readme"
-Repository = "https://github.com/yourusername/gdc-mcp-server"
-Issues = "https://github.com/yourusername/gdc-mcp-server/issues"
+Homepage = "https://github.com/devstephenke-sys/gdc-mcp-server"
+Documentation = "https://github.com/devstephenke-sys/gdc-mcp-server#readme"
+Repository = "https://github.com/devstephenke-sys/gdc-mcp-server"
+Issues = "https://github.com/devstephenke-sys/gdc-mcp-server/issues"
 
 [tool.hatch.build.targets.wheel]
 packages = ["gdc_mcp"]
