@@ -337,7 +337,7 @@ async def query_copy_number(
     if gene_symbol:
         filters["content"].append({"op": "in", "content": {"field": "gene.symbol", "value": [gene_symbol]}})
     if alteration_type:
-        filters["content"].append({"op": "in", "content": {"field": " alteration_type", "value": [alteration_type]}})
+        filters["content"].append({"op": "in", "content": {"field": "alteration_type", "value": [alteration_type]}})
 
     if not filters["content"]:
         filters = None

@@ -18,3 +18,12 @@ async def test_client_with_token():
     client = GDCClient(token="test_token")
     assert client.token == "test_token"
     assert client._client is None
+
+
+@pytest.mark.asyncio
+async def test_client_context_manager():
+    """Test that client works as context manager."""
+    async with GDCClient() as client:
+        assert client._client is not None
+    # After exiting context, client should be closed
+    assert client._client is None

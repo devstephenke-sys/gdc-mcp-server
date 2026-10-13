@@ -55,7 +55,7 @@ The GDC MCP Server provides programmatic access to the NCI Genomic Data Commons 
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/gdc-mcp-server.git
+git clone https://github.com/devstephenke-sys/gdc-mcp-server.git
 cd gdc-mcp-server
 
 # Install with uv (recommended)
@@ -321,8 +321,8 @@ If you use this software in your research, please cite:
 ```bibtex
 @software{gdc_mcp_server,
   title = {GDC MCP Server: Model Context Protocol Server for NCI Genomic Data Commons},
-  author = {Your Name},
+  author = {Stephen Mwangi},
   year = {2026},
-  url = {https://github.com/yourusername/gdc-mcp-server}
+  url = {https://github.com/devstephenke-sys/gdc-mcp-server}
 }
 ```
