@@ -4,6 +4,8 @@ Model Context Protocol (MCP) server for the [NCI Genomic Data Commons (GDC)](htt
  [![M8ven Score](https://m8ven.ai/badge/mcp/devstephenke-sys-gdc-mcp-server-176zpb?v=07feb4dca912511383e4ddf9ccaf3f94)](https://m8ven.ai/mcp/devstephenke-sys-gdc-mcp-server-176zpb?s=readme)
  [![M8ven Score](https://m8ven.ai/badge/mcp/devstephenke-sys/gdc-mcp-server)](https://m8ven.ai/mcp/devstephenke-sys/gdc-mcp-server?s=readme)
 https://m8ven.ai/api/mcp/tool-check
+[![M8ven Score](https://m8ven.ai/badge/mcp/devstephenke-sys/gdc-mcp-server)](https://m8ven.ai/mcp/devstephenke-sys/gdc-mcp-server?s=readme)
+https://m8ven.ai/api/mcp/tool-check
 <!-- mcp-name: io.github.devstephenke-sys/gdc-mcp-server -->
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
